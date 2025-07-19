@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/* index.css */
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --box-bg: #f1f1f1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dark-theme {
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+  --box-bg: #2c2c2c;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-section {
+  background-color: var(--box-bg);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+.hero-text {
+  color: var(--text-color);
+  transition: color 0.3s;
 }
