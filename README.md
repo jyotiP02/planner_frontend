@@ -50,7 +50,7 @@ RSVP(id, user_id, event_id, status)
 
 
 🔗 Deployed Link
-Will go here after deployment to Netlify or Vercel
+https://planner-frontend-06ok.onrender.com
 
 📄 Available Scripts
 In the project directory:
