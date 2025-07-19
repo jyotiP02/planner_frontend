@@ -1,5 +1,7 @@
 <img width="1918" height="905" alt="Screenshot 2025-07-19 214006" src="https://github.com/user-attachments/assets/c9d62d17-64d5-4a2d-b688-d3f5ecff4db9" />
+
 🎥 Watch the demo video [https://drive.google.com/file/d/1Yi69BEadvVNgqhBWpUxWcDwzhe2G4j5d/view?usp=sharing]
+
 # Planner Frontend
 
 Frontend for the Event Planner Web App.
